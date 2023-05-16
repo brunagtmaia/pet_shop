@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style\style_nossos_pets.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav_menu">
+        <div>
+            <div id="conteudo">
+                <div>Cantinho do Cão</div>
+                <button id="showMenu" type="button" value="Menu">Menu</button>
+            </div>
+            <div id="nav">
+                <button id="hideMenu" type="button" value="Ocultar Menu"><img src="img_geral\icon_fechar_menu.png" width="20px" height="20px" style="text-align: end; margin:0; padding-right:5px;">Fechar menu</button>
+                <ul id="nav_list">
+                    <li ><a class="nav_item" id="campos_divinopolis" href="#banner">HOME</a></li>
+                    <hr class="menu_divisor">
+
+                    <li><a class="nav_item" id="cursos" href="#nossos_serviços">SERVIÇOS</a></li>
+                    <hr class="menu_divisor">
+
+                    <li ><a class="nav_item" id="alunos" href="agendamento.php?id=<?php echo $id_usuario_atual; ?>">AGENDAMENTO</a></li>
+                    <hr class="menu_divisor">
+
+                    <li ><a class="nav_item" id="pais" href="login.php">LOGIN</a></li>
+                    <hr class="menu_divisor">
+
+                    <li ><a class="nav_item" id="servidor" href="cadastro.php">CADASTRO</a></li>
+                    <hr class="menu_divisor">
+                    <li ><a class="nav_item" id="servidor" href="nossos_pets.html">NOSSOS CLIENTES</a></li>
+                    <hr class="menu_divisor">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <H1>Natureza</H1>
+    <div class="carrossel_todo">
+        <div class="carrossel">
+            <div class="imagem"><span>Belinha</span></div>
+            <div class="imagem"><span>Zara</span></div>
+            <div class="imagem"><span>Chiara</span></div>
+            <div class="imagem"><span>Mel</span></div>
+            <div class="imagem"><span>Python</span></div>
+            <div class="imagem"><span>Zeus</span></div>
+            <div class="imagem"><span>Max</span></div>
+            <div class="imagem"><span>Thor</span></div>
+            <div class="imagem"><span>LUK</span></div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js\script_menu.js"></script>
+</body>
+</html>
